@@ -1,0 +1,94 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+body {
+  font-family:  Futura, 'Noto Sans JP', 'Century Gothic', YuGothic, 'Hiragino Kaku Gothic ProN', 'Yu Gothic', Meiryo, sans-serif;
+}
+
+
+.inner {
+  
+  margin: 0 auto;
+  padding: 0 40px;
+  box-sizing: content-box;
+  }
+
+  .header {
+  background: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.80);
+  }
+
+  .header-inner {
+  display: flex;
+  align-items: center;
+  }
+
+  .header-title a{
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+  }
+
+  .header-nav {
+  margin-left: auto;
+  }
+
+  ul {
+    list-style: none;
+    
+}
+  .header-nav-list {
+  display: flex;
+  }
+
+  .header-nav-item:not(:first-child){
+  margin-left: 40px;
+  }
+
+  .header-nav-item-link {
+  display: block;
+  color: #333;
+  height: 80px;
+  line-height: 80px;
+  white-space:nowrap;
+  }
+
+  main{
+    margin-top: 111px;/* ヘッダーの幅は111px */
+    text-align: center;
+  }
+
+  .IE_logo2{
+    margin-top: 80px;
+  }
+
+  .IE_des{
+    margin-top: 80px;
+    color: #000;
+
+text-align: center;
+font-family: Noto Sans JP;
+font-size: 16px;
+font-style: normal;
+font-weight: 350;
+line-height: 250%; /* 40px */
+letter-spacing: 1.6px;
+  }
+
+  .more{
+    margin-top: 80px;
+  }
+
+  .Products{
+    margin-top: 240px;
+    color: #000;
+    
+    font-family: Futura;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 250%; /* 120px */
+    letter-spacing: 4.8px;
+  }
